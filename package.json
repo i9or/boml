@@ -1,0 +1,34 @@
+{
+  "name": "boml",
+  "version": "1.1.1",
+  "description": "Blue Oak Model License generator",
+  "main": "boml.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i9or/boml.git"
+  },
+  "keywords": [
+    "license",
+    "generator",
+    "foss"
+  ],
+  "author": "Igor <dont@bzzr.me> (https://ignorethis.page/)",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/i9or/boml/issues"
+  },
+  "homepage": "https://github.com/i9or/boml#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.2",
+    "shelljs": "^0.8.3",
+    "yargs": "^15.4.1"
+  },
+  "bin": {
+    "boml": "./boml.js"
+  }
+}
